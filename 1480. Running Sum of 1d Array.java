@@ -1,7 +1,7 @@
 /*
 
   Problem Link: https://leetcode.com/problems/running-sum-of-1d-array/
-  Solution Link: https://youtu.be/39fOLWMt9WE
+  Solution Link: https://youtu.be/-feMMkI6sfk
 
 */
 
