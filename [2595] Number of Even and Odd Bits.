@@ -1,0 +1,12 @@
+class Solution {
+    public int[] evenOddBit(int n) {
+           int odd=0,even=0;
+        String bin=Integer.toBinaryString(n);
+        for(int i=bin.length()-1,j=0;i>-1;i--,j++)
+            if(j%2==1)
+                odd+=bin.charAt(i)-48;
+            else
+                even+=bin.charAt(i)-48;   
+        return new int[]{even,odd};      
+    }
+}
